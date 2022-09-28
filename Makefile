@@ -1,8 +1,9 @@
-# $NetBSD: Makefile,v 1.16 2022/06/08 21:03:45 schmonz Exp $
+# $NetBSD: Makefile,v 1.18 2022/08/11 05:08:14 gutteridge Exp $
 
 DISTNAME=		texttest-4.1.2
 GITHUB_TAG=		${PKGVERSION_NOREV}
 PKGNAME=		${DISTNAME:tl}
+PKGREVISION=		2
 CATEGORIES=		devel python
 MASTER_SITES=		${MASTER_SITE_GITHUB:=texttest/}
 
